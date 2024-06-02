@@ -204,11 +204,10 @@ const PoolForm: FC<Props> = ({
           {blockLiquidity ? (
             <LiquidityBlocked>
               <div>
-                Pool migration is happening now, please withdraw liquidity from
-                here and deposit in{" "}
                 <a href="https://v2.across.to" target="_blank" rel="noreferrer">
                   Across v2
-                </a>
+                </a>{" "}
+                is now live. Please add any liquidity there.
               </div>
             </LiquidityBlocked>
           ) : null}
